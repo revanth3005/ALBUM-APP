@@ -1,0 +1,75 @@
+.editbodys{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-image: linear-gradient(to right, #ff6e7f, #bfe9ff)
+}
+.edit-container{
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+}
+.edit-container .edit-Title{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+}
+.edit-container .edit-Title::before{
+    content:'';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background-image: linear-gradient(to right, #ff6e7f, #bfe9ff)
+}
+.edit-container form .edit-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+} 
+form .edit-details .edit-box{
+    margin-bottom: 15px;
+    width: calc(100% / 2 -20px);
+}
+.edit-details .edit-box .ed-details{
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.edit-details .edit-box input{
+    /* display: block; */
+    height: 35px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 15px;
+}
+.edit-details .edit-box input:focus,
+.edit-details .edit-box input:valid{
+    border-color: #c17bd3;
+}
+.su-bt{
+    height: 35px;
+    margin: 35px 0; 
+}
+form .su-bt .btt{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    background:linear-gradient(135deg,#71b7e6,#9b59b6); 
+}
+form .su-bt .btt:hover{
+    background:linear-gradient(-135deg,#71b7e6,#9b59b6); 
+}

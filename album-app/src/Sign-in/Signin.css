@@ -1,0 +1,107 @@
+.bodyy{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    /* background: linear-gradient(-135deg,#71b7e6,#9b59b6); */
+    background-image: linear-gradient(to right, #5a3f37, #2c7744);
+
+}
+.Signin-container{
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+
+}
+.Signin-container .title{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+}
+.Signin-container .title::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 20px;
+    /* background: linear-gradient(-135deg,#71b7e6,#9b59b6); */
+    background-image: linear-gradient(to right, #5a3f37, #2c7744);
+}
+.Signin-container form .user-detail{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0 10px 0;
+}
+form .user-details .input-box{
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+}
+.user-detail .input-boxs .detail{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.user-detail .input-boxs input{
+    height: 38px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 15px;
+    border-bottom-width: 2px;
+}
+.user-detail .input-boxs input:focus,
+.user-detail .input-boxs input:valid{
+    border-color: #2c7744;
+}
+form .submit-bt{
+    height: 40px;
+    margin: 30px 0;
+}
+form .submit-bt .bt-in{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    /* background: linear-gradient(135deg,#71b7e6,#9b59b6); */
+    background-image: linear-gradient(to right, #5a3f37, #2c7744);
+}
+form .submit-bt .bt-in:hover{
+    /* background: linear-gradient(-135deg,#71b7e6,#9b59b6);    */
+    /* background-image: linear-gradient(to right, #ff6e7f, #bfe9ff); */
+    background-image: linear-gradient(to right, #ff9966, #ff5e62);
+}
+.Signin-footer{
+    display: flex;
+    justify-content: center;
+}
+.alerts-msg{
+    position: fixed;
+    top: 155px;
+    left: 800px;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    /* background: linear-gradient(135deg,#71b7e6,#9b59b6); */
+    background-image: linear-gradient(to right, #5a3f37, #2c7744);
+
+}
+.in-password:hover{
+    /* background-image: linear-gradient(to right, #ff6e7f, #bfe9ff); */
+    background-image: linear-gradient(to right, #ff9966, #ff5e62);
+}
+.in-email:hover{
+    /* background-image: linear-gradient(to right, #ff6e7f, #bfe9ff); */
+    background-image: linear-gradient(to right, #ff9966, #ff5e62);
+}

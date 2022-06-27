@@ -1,0 +1,39 @@
+{
+  "name": "album_management",
+  "version": "1.0.0",
+  "description": "creating an Album_management",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/revanth3005/ALBUM-MANAGEMENT.git"
+  },
+  "keywords": [
+    "expressJs",
+    "MongoDb",
+    "NodeJs",
+    "ReactJs"
+  ],
+  "author": "NEELAM SAI REVANTH",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/revanth3005/ALBUM-MANAGEMENT/issues"
+  },
+  "homepage": "https://github.com/revanth3005/ALBUM-MANAGEMENT#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "helmet": "^5.1.0",
+    "http": "^0.0.1-security",
+    "http-errors": "^2.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
